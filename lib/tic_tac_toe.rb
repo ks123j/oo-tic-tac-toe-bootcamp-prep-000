@@ -58,7 +58,7 @@ class TicTacToe
 
   def won?
     WIN_COMBINATIONS.detect do|win_index|
-          (board[win_index[0]] == board[win_index[1]]) && (board[win_index[1]] == board[win_index[2]]) && position_taken?(board, win_index[0])
+          (board[win_index[0]] == board[win_index[1]]) && (board[win_index[1]] == board[win_index[2]]) && position_taken?(win_index[0])
     end
   end
 end
