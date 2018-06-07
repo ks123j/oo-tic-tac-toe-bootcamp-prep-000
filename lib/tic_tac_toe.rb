@@ -101,5 +101,4 @@ class TicTacToe
     if draw?
       puts "Cat's Game!"
     end
-
 end
