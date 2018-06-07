@@ -98,24 +98,8 @@ class TicTacToe
     end
   end
 
-  if draw?(board)
+  if draw?
     puts "Cat's Game!"
-=======
-  input = gets
-
-  if !over?(board) && !won?(board)
-    turn(board)
-  end
-
-  i = 0
-  while i < 9
-    play(board)
-    i += 1
-  end
-
-  if won?(board) && !draw?(board)
-    winner(board)
->>>>>>> 36663e63190652a1a3a32526a437fd410e8850d0
   end
 
 end
