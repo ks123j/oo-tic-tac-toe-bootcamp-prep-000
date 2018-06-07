@@ -67,4 +67,8 @@ class TicTacToe
       (index == "X" || index == "O" )
     end
   end
+
+  def draw?
+   full? && !won?
+end
 end
