@@ -93,6 +93,7 @@ class TicTacToe
       our_winner = winner
       our_winner == "X"? puts "Congratulations X!" : puts "Congratulations O!"
     end
+    end
 
     if draw?
       puts "Cat's Game!"
