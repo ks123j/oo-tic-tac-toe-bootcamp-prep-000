@@ -92,10 +92,6 @@ class TicTacToe
     if won?
       our_winner = winner
       our_winner == "X"? puts "Congratulations X!" : puts "Congratulations O!"
-
-      else
-
-      end
     end
 
     if draw?
