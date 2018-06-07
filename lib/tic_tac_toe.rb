@@ -73,7 +73,14 @@ class TicTacToe
   end
 
   def over?
-     won?(board) || full?(board) || draw?(board)
+     won? || full? || draw?
   end
 
+  def winner
+    if won?(board)
+    won_board = won?(board)
+    won_board[0]
+    board[won_board[0]]
+    end
+  end
 end
