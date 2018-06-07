@@ -77,7 +77,7 @@ class TicTacToe
   end
 
   def winner
-    if won?(board)
+    if won?
     won_board = won?(board)
     won_board[0]
     board[won_board[0]]
