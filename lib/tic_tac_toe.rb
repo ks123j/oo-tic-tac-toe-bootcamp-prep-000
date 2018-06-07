@@ -61,5 +61,7 @@ class TicTacToe
           (board[win_index[0]] == board[win_index[1]]) && (board[win_index[1]] == board[win_index[2]]) && position_taken?(win_index[0])
     end
   end
-  
+
+  def full?
+  board.all? do|index|
 end
